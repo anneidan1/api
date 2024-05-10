@@ -1,7 +1,11 @@
 {
-  "functions": {
-    "api/**/*.js": {
-      "runtime": "nodejs14.x"
-    }
-  }
+  "name": "my-vercel-function",
+  "version": "1.0.0",
+  "main": "redirect.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {}
 }
